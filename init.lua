@@ -172,5 +172,18 @@ require('lualine').setup {
 
 require('ibl').setup()
 
+require('bufferline').setup {
+  options = {
+    offsets = {
+      {
+        filetype = 'NvimTree',
+        text = 'File Explorer',
+        highlight = 'Directory',
+        separator = true, -- use a "true" to enable the default, or set your own character
+      },
+    },
+  },
+}
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

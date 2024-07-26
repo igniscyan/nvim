@@ -51,6 +51,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/harpoon',
 
+  require 'kickstart/plugins/bufferline',
+
   -- require 'kickstart.plugins.lint',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
