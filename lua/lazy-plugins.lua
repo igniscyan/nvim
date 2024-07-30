@@ -35,6 +35,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/conform',
 
+  require 'kickstart/plugins/comment',
+
   require 'kickstart/plugins/cmp',
 
   require 'kickstart/plugins/theme',
