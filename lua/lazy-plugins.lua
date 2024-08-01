@@ -35,6 +35,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/conform',
 
+  require 'kickstart/plugins/comment',
+
   require 'kickstart/plugins/cmp',
 
   require 'kickstart/plugins/theme',
@@ -54,6 +56,9 @@ require('lazy').setup({
   require 'kickstart/plugins/bufferline',
 
   require 'kickstart/plugins/autotags',
+
+  require 'kickstart/plugins/toggleterm',
+
   -- require 'kickstart.plugins.lint',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
